@@ -5,7 +5,6 @@ import javax.swing.JFrame;
 
 import it.unipr.netsec.zwt.ZwtFrame;
 import it.unipr.netsec.zwt.ZwtView;
-import test.calc.RPNCalculator;
 
 
 /** RPN Calculator.

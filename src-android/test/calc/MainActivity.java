@@ -11,7 +11,6 @@ import android.view.Display;
 import android.widget.ImageView;
 
 import it.unipr.netsec.zwt.ZwtFrame;
-import it.unipr.netsec.zwt.examples.calc.RPNCalculator;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         int statusBarHeight = 0;
-        int resourceId = getResources().getIdentifier("statusBarHeight", "dimen", "android");
+        int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
         if (resourceId > 0) statusBarHeight = getResources().getDimensionPixelSize(resourceId);
 
         Display display = getWindowManager().getDefaultDisplay();

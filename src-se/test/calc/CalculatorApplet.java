@@ -27,7 +27,6 @@ import javax.swing.JFrame;
 
 import it.unipr.netsec.zwt.ZwtView;
 import it.unipr.netsec.zwt.frame.AppletFrame;
-import test.calc.RPNCalculator;
 
 
 /** Simple Applet-based calculator.
